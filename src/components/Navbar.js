@@ -5,12 +5,11 @@ import "../styles/Navbar.css"
 export function Navbar () {
     return ( 
         <nav className="navbar">
-            <ul className="navbar-list">
-                <li className="navbar-item"> 
+            <div className="transaction-title" > Budgtr </div>
+                <button className="navbar-button"> 
                     {/* <Link to='/'> Transactions </Link> */}
                     Transactions
-                </li>
-            </ul>
+                </button>
         </nav>
     )
 
