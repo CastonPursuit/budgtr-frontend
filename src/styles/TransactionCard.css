@@ -29,10 +29,15 @@
   .transaction-category {
     flex-grow: 1;
     text-align: center;
+    text-decoration: none;
+    color: blue ;
+    font-size: 20px;
+    font-weight: bold;
   }
   
   .transaction-amount {
     flex-basis: 20%;
     text-align: right;
+    
   }
   

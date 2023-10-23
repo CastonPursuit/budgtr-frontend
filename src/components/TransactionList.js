@@ -3,7 +3,7 @@ import React, {useEffect, useState} from 'react';
 import '../styles/TransactionList.css';
 import TransactionCard from './TransactionCard';
 
-export function TransactionList() {
+export default function TransactionList() {
   const [transactions, setTransactions] =  useState([]);
 
   useEffect( () =>  {
