@@ -6,9 +6,8 @@ export  default function TransactionCard( {date, category, amount}) {
         <div className="transaction-card"> 
             <div className="transaction-info"> 
                 <div className="transaction-date"> {date}  </div>
-                {<Link to="/new" className="transaction-category"> {category} </Link> }
-                <div className="transaction-amount"> ${amount} </div>
-                
+                {<Link to="/info" className="transaction-category"> {category} </Link> }
+                <div className="transaction-amount"> ${amount} </div>     
             </div>
         </div>
         
