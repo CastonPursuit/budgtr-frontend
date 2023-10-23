@@ -1,11 +1,11 @@
 import "../styles/TransactionCard.css";
-export  default function TransactionCard() {  
+export  default function TransactionCard( {date, category, amount}) {  
     return (
         <div className="transaction-card"> 
             <div className="transaction-info"> 
-                <div className="transaction-date"> Oct 23  </div>
-                <div className="transaction-category"> Food  </div>
-                <div className="transaction-amount"> $150 </div>
+                <div className="transaction-date"> {date}  </div>
+                <div className="transaction-category"> {category}</div>
+                <div className="transaction-amount"> ${amount} </div>
             </div>
         </div>
         
