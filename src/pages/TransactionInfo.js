@@ -1,7 +1,7 @@
+import TransactionDetails from "../components/TransactionDetails"
+
 export default function TransactionInfo() {
     return (
-        <div>
-            TransactionInfo Goes Here
-        </div>
+        <TransactionDetails/>
     )
 }
