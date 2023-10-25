@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import "../styles/TransactionCard.css";
 import {Link} from "react-router-dom";
 
